@@ -1,6 +1,7 @@
 import Domoticz
 import os
 import subprocess
+from shutil import rmtree
 
 
 class Plugin():
@@ -136,5 +137,19 @@ class Plugin():
         except OSError as e:
             Domoticz.Error("Git ErrorNo:" + str(e.errno))
             Domoticz.Error("Git StrError:" + str(e.strerror))
+
+        return False
+
+    def uninstall(self):
+        Domoticz.Log("Uninstalling Plugin:" + self.description)
+
+        if not self.is_installed():
+            return True
+
+        try:
+            rmtree(self.plugin_folder)
+            return True
+        except Exception as e:
+            Domoticz.Error(e)
 
         return False

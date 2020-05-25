@@ -180,6 +180,17 @@ define(['app'], function(app) {
                     .then($ctrl.onUpdate);
             });
 
+            table.on('click', '.js-uninstall', function() {
+                var plugin = table.api().row($(this).closest('tr')).data();
+
+                bootbox.confirm('Are you sure you want to uninstall "' + plugin.description + '" plugin?')
+                    .then(function() {
+                        return ppManager.sendRequest('uninstall', plugin.key);
+                    })
+                    .then(bootbox.alert, bootbox.alert)
+                    .then($ctrl.onUpdate);
+            });
+
             table.on('click', '.js-update', function() {
                 var plugin = table.api().row($(this).closest('tr')).data();
 
@@ -224,17 +235,21 @@ define(['app'], function(app) {
             var actions = [];
             var delimiter = '<img src="../../images/empty16.png" width="16" height="16" />';
 
-            if (!plugin.is_installed) {
-                actions.push('<button class="btn btn-icon js-install" title="' + $.t('Install') + '"><img src="images/down.png" /></button>');
-            } else if (plugin.is_update_available) {
+            if (plugin.is_update_available) {
                 actions.push('<button class="btn btn-icon js-update" title="' + $.t('Update') + '"><img src="images/mode.png" /></button>');
             } else {
                 actions.push(delimiter)
             }
 
+            if (!plugin.is_installed) {
+                actions.push('<button class="btn btn-icon js-install" title="' + $.t('Install') + '"><img src="images/down.png" /></button>');
+            } else {
+                actions.push('<button class="btn btn-icon js-uninstall" title="' + $.t('Uninstall') + '"><img src="images/delete.png" /></button>');
+            }
+
             actions.push(delimiter)
             actions.push('<a class="btn btn-icon" href="' + plugin.source + '" target="_blank" title="' + $.t('Go to source') + '"><img src="images/details.png" /></a>');
-            // actions.push('<button class="btn btn-icon js-rename-device" title="' + $.t('Rename Device') + '"><img src="images/rename.png" /></button>');
+
             return actions.join('&nbsp;');
         }
     }
