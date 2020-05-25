@@ -83,6 +83,13 @@
         "repository": "https://github.com/mvzut/maxcube-Domoticz-plugin",
         "branch": "master"
     },
+    "ewpe-smart-mqtt": {
+        "name": "EwpeSmartMqtt",
+        "author": "stas-demydiuk",
+        "description": "EwpeSmart (Gree, Cooper&Hunter, etc.) Air Conditioners via MQTT",
+        "repository": "https://github.com/stas-demydiuk/domoticz-ewpe-smart-mqtt-plugin",
+        "branch": "master"
+    },
     "freeboxv6": {
         "name": "PluginDomoticzFreebox",
         "author": "supermat",
