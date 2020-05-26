@@ -6,4 +6,4 @@ plugins_raw = json.load(f)
 plugins = {}
 
 for key, value in plugins_raw.items():
-    plugins[key] = Plugin(key, value)
+    plugins[key] = Plugin(value)

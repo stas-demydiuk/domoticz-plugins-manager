@@ -4,321 +4,375 @@
         "author": "999LV",
         "description": "Battery monitoring for Z-Wave nodes",
         "repository": "https://github.com/999LV/BatteryLevel",
-        "branch": "master"
+        "branch": "master",
+        "folder": "BatteryLevel"
     },
     "Buienradar": {
         "name": "domoticz-buienradar",
         "author": "ffes",
         "description": "Buienradar.nl (Weather lookup)",
         "repository": "https://github.com/ffes/domoticz-buienradar",
-        "branch": "master"
+        "branch": "master",
+        "folder": "Buienradar"
     },
     "AAPIPModule": {
         "name": "DomoticzCrowAlarm",
         "author": "febalci",
         "description": "Crow Runner Alarm",
         "repository": "https://github.com/febalci/DomoticzCrowAlarm",
-        "branch": "master"
+        "branch": "master",
+        "folder": "AAPIPModule"
     },
     "ChromecastPlugin": {
         "name": "ChromecastPlugin",
         "author": "Tsjippy",
         "description": "Chromecast plugin for Domoticz",
         "repository": "https://github.com/Tsjippy/ChromecastPlugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "ChromecastPlugin"
     },
     "deCONZ": {
         "name": "Domoticz-deCONZ",
         "author": "Smanar",
         "description": "deCONZ bridge (For Conbee,Raspbee)",
         "repository": "https://github.com/Smanar/Domoticz-deCONZ",
-        "branch": "master"
+        "branch": "master",
+        "folder": "deCONZ"
     },
     "Denon4306": {
         "name": "Domoticz-Denon-Plugin",
         "author": "dnpwwo",
         "description": "Denon/Marantz Amplifier",
         "repository": "https://github.com/dnpwwo/Domoticz-Denon-Plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "Denon4306"
     },
     "xfr_discusage": {
         "name": "Domoticz-Disc-usage-Plugin",
         "author": "Xorfor",
         "description": "Disc usage",
         "repository": "https://github.com/Xorfor/Domoticz-Disc-usage-Plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "xfr_discusage"
     },
     "xfr_aardbeving": {
         "name": "Domoticz-LastDutchEarthquake-Plugin",
         "author": "Xorfor",
         "description": "Dutch earthquakes",
         "repository": "https://github.com/Xorfor/Domoticz-LastDutchEarthquake-Plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "xfr_aardbeving"
     },
     "SeismicPortal": {
         "name": "DomoticzEarthquake",
         "author": "febalci",
         "description": "Eartquake EMSC Data",
         "repository": "https://github.com/febalci/DomoticzEarthquake",
-        "branch": "master"
+        "branch": "master",
+        "folder": "SeismicPortal"
     },
     "ebusd": {
         "name": "DomoticzEbusd",
         "author": "guillaumezin",
         "description": "ebusd bridge",
         "repository": "https://github.com/guillaumezin/DomoticzEbusd",
-        "branch": "master"
+        "branch": "master",
+        "folder": "ebusd"
     },
     "ems-gateway": {
         "name": "ems-esp-domoticz-plugin",
         "author": "bbqkees",
         "description": "EMS bus Wi-Fi Gateway",
         "repository": "https://github.com/bbqkees/ems-esp-domoticz-plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "ems-gateway"
     },
     "eq3max": {
         "name": "maxcube-Domoticz-plugin",
         "author": "mvzut",
         "description": "eQ-3 MAX! Cube",
         "repository": "https://github.com/mvzut/maxcube-Domoticz-plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "eq3max"
     },
     "ewpe-smart-mqtt": {
-        "name": "EwpeSmartMqtt",
+        "name": "EwpeSmart Air Conditioners via MQTT",
         "author": "stas-demydiuk",
-        "description": "EwpeSmart (Gree, Cooper&Hunter, etc.) Air Conditioners via MQTT",
+        "description": "EwpeSmart (Gree, Cooper&Hunter, etc.) Air Conditioners control via MQTT",
         "repository": "https://github.com/stas-demydiuk/domoticz-ewpe-smart-mqtt-plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "ewpe-smart-mqtt"
     },
     "freeboxv6": {
         "name": "PluginDomoticzFreebox",
         "author": "supermat",
         "description": "Freebox V6 (Revolution)",
         "repository": "https://github.com/supermat/PluginDomoticzFreebox",
-        "branch": "master"
+        "branch": "master",
+        "folder": "freeboxv6"
     },
     "GC-100": {
         "name": "Domoticz-GlobalCache-Plugin",
         "author": "dnpwwo",
         "description": "Global Cache 100",
         "repository": "https://github.com/dnpwwo/Domoticz-GlobalCache-Plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "GC-100"
     },
     "Homewizard": {
         "name": "domoticz-homewizard",
         "author": "rvdvoorde",
         "description": "Homewizard",
         "repository": "https://github.com/rvdvoorde/domoticz-homewizard",
-        "branch": "master"
+        "branch": "master",
+        "folder": "Homewizard"
     },
     "HivePlug": {
         "name": "domoticz-hive",
         "author": "imcfarla2003",
         "description": "Hive Plugin",
         "repository": "https://github.com/imcfarla2003/domoticz-hive",
-        "branch": "master"
+        "branch": "master",
+        "folder": "HivePlug"
     },
     "iDetect": {
         "name": "Domoticz_iDetect",
         "author": "d-EScape",
         "description": "iDetect Presence Detection",
         "repository": "https://github.com/d-EScape/Domoticz_iDetect",
-        "branch": "master"
+        "branch": "master",
+        "folder": "iDetect"
     },
     "IKEA-Tradfri": {
         "name": "IKEA-Tradfri-plugin",
         "author": "moroen",
         "description": "IKEA Tradfri",
         "repository": "https://github.com/moroen/IKEA-Tradfri-plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "IKEA-Tradfri"
     },
     "Life360": {
         "name": "DomoticzLife360",
         "author": "febalci",
         "description": "Life 360 Presence",
         "repository": "https://github.com/febalci/DomoticzLife360",
-        "branch": "master"
+        "branch": "master",
+        "folder": "Life360"
     },
     "Linky": {
         "name": "DomoticzLinky",
         "author": "guillaumezin",
         "description": "Linky",
         "repository": "https://github.com/guillaumezin/DomoticzLinky",
-        "branch": "master"
+        "branch": "master",
+        "folder": "Linky"
     },
     "MeteoAlarmEU": {
         "name": "MeteoAlarmEU",
         "author": "ycahome",
         "description": "Meteo Alarm EU RSS Reader",
         "repository": "https://github.com/ycahome/MeteoAlarmEU",
-        "branch": "master"
+        "branch": "master",
+        "folder": "MeteoAlarmEU"
     },
     "mikrotik-routeros": {
         "name": "domoticz-routeros-plugin",
         "author": "mrin",
         "description": "Mikrotik RouterOS",
         "repository": "https://github.com/mrin/domoticz-routeros-plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "mikrotik-routeros"
     },
     "MoonPhases": {
         "name": "MoonPhases",
         "author": "ycahome",
         "description": "Moon Phases",
         "repository": "https://github.com/ycahome/MoonPhases",
-        "branch": "master"
+        "branch": "master",
+        "folder": "MoonPhases"
     },
     "MQTTDiscovery": {
         "name": "domoticz_mqtt_discovery",
         "author": "emontnemery",
         "description": "MQTT discovery",
         "repository": "https://github.com/emontnemery/domoticz_mqtt_discovery",
-        "branch": "master"
+        "branch": "master",
+        "folder": "MQTTDiscovery"
     },
     "Onkyo": {
         "name": "domoticz-onkyo-plugin",
         "author": "jorgh6",
         "description": "Onkyo AV Receiver",
         "repository": "https://github.com/jorgh6/domoticz-onkyo-plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "Onkyo"
     },
     "xfr_openaq": {
         "name": "Domoticz-OpenAQ-Plugin",
         "author": "Xorfor",
         "description": "OpenAQ",
         "repository": "https://github.com/Xorfor/Domoticz-OpenAQ-Plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "xfr_openaq"
     },
     "xfr_pihole": {
         "name": "Domoticz-Pi-hole-Plugin",
         "author": "Xorfor",
         "description": "Pi-hole summary",
         "repository": "https://github.com/Xorfor/Domoticz-Pi-hole-Plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "xfr_pihole"
     },
     "xfr-pimonitor": {
         "name": "Domoticz-PiMonitor-Plugin",
         "author": "Xorfor",
         "description": "PiMonitor",
         "repository": "https://github.com/Xorfor/Domoticz-PiMonitor-Plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "xfr-pimonitor"
     },
     "PioneerAVR": {
         "name": "DomoticzPioneerAVR",
         "author": "febalci",
         "description": "Pioneer AVR",
         "repository": "https://github.com/febalci/DomoticzPioneerAVR",
-        "branch": "master"
+        "branch": "master",
+        "folder": "PioneerAVR"
+    },
+    "plugins-manager": {
+        "name": "Python Plugins Manager",
+        "author": "stas-demydiuk",
+        "description": "Allows to manage python plugins through custom UI page",
+        "repository": "https://github.com/stas-demydiuk/domoticz-plugins-manager",
+        "branch": "master",
+        "folder": "plugins-manager"
     },
     "RAVEn": {
         "name": "Domoticz-RAVEn-Plugin",
         "author": "dnpwwo",
         "description": "RAVEn Zigbee energy monitor",
         "repository": "https://github.com/dnpwwo/Domoticz-RAVEn-Plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "RAVEn"
     },
     "SmogTok": {
         "name": "smogtokdomoticzplug",
         "author": "smogtok",
         "description": "SmogTok Air Quality monitor",
         "repository": "https://github.com/smogtok/smogtokdomoticzplug",
-        "branch": "master"
+        "branch": "master",
+        "folder": "SmogTok"
     },
     "SNMPreader": {
         "name": "SNMPreader",
         "author": "ycahome",
         "description": "SNMP Reader",
         "repository": "https://github.com/ycahome/SNMPreader",
-        "branch": "master"
+        "branch": "master",
+        "folder": "SNMPreader"
     },
     "Sonos": {
         "name": "sonos",
         "author": "gerard33",
         "description": "Sonos Players",
         "repository": "https://github.com/gerard33/sonos",
-        "branch": "master"
+        "branch": "master",
+        "folder": "Sonos"
     },
     "sony": {
         "name": "sony-bravia",
         "author": "gerard33",
         "description": "Sony Bravia TV (with Kodi remote)",
         "repository": "https://github.com/gerard33/sony-bravia",
-        "branch": "master"
+        "branch": "master",
+        "folder": "sony"
     },
     "Synology SurveillanceStation": {
         "name": "SurveillanceStationDomoticz",
         "author": "lolautruche",
         "description": "Synology SurveillanceStation",
         "repository": "https://github.com/lolautruche/SurveillanceStationDomoticz",
-        "branch": "master"
+        "branch": "master",
+        "folder": "Synology SurveillanceStation"
     },
     "xfr_speedtest": {
         "name": "Domoticz-Speedtest-Plugin",
         "author": "Xorfor",
         "description": "Speedtest",
         "repository": "https://github.com/Xorfor/Domoticz-Speedtest-Plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "xfr_speedtest"
     },
     "SYSFS-Switches": {
         "name": "GPIO-SYSFS-Switches",
         "author": "flatsiedatsie",
         "description": "SYSFS-Switches",
         "repository": "https://github.com/flatsiedatsie/GPIO-SYSFS-Switches",
-        "branch": "master"
+        "branch": "master",
+        "folder": "SYSFS-Switches"
     },
     "NUT_UPS": {
-        "name": "NUT_UPS",
+        "name": "UPS Monitor",
         "author": "999LV",
-        "description": "UPS Monitor",
+        "description": "UPS Monitor python plugin for Domoticz",
         "repository": "https://github.com/999LV/NUT_UPS",
-        "branch": "master"
+        "branch": "master",
+        "folder": "NUT_UPS"
     },
     "WAN-IP-CHECKER": {
         "name": "WAN-IP-CHECKER",
         "author": "ycahome",
         "description": "Wan IP Checker",
         "repository": "https://github.com/ycahome/WAN-IP-CHECKER",
-        "branch": "master"
+        "branch": "master",
+        "folder": "WAN-IP-CHECKER"
     },
-    "Mi_Flower_mate_plugin": {
-        "name": "Mi_Flower_mate_plugin",
+    "Mi_Flower_mate": {
+        "name": "Xiaomi Mi Flower Mate",
         "author": "flatsiedatsie",
         "description": "Xiaomi Mi Flower Mate",
         "repository": "https://github.com/flatsiedatsie/Mi_Flower_mate_plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "Mi_Flower_mate_plugin"
     },
     "xiaomi-mi-robot-vacuum": {
-        "name": "domoticz-mirobot-plugin",
+        "name": "Xiaomi Mi Robot Vacuum",
         "author": "mrin",
         "description": "Xiaomi Mi Robot Vacuum",
         "repository": "https://github.com/mrin/domoticz-mirobot-plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "xiaomi-mi-robot-vacuum"
     },
     "XiaomiPM": {
-        "name": "DomoticzXiaomiPM2.5",
+        "name": "Xiaomi PM2.5 Sensor",
         "author": "febalci",
         "description": "Xiaomi PM2.5 Sensor",
         "repository": "https://github.com/febalci/DomoticzXiaomiPM2.5",
-        "branch": "master"
+        "branch": "master",
+        "folder": "XiaomiPM"
     },
     "YamahaPlug": {
-        "name": "domoticz-yamaha",
+        "name": "Yamaha AV Receiver",
         "author": "thomas-villagers",
-        "description": "Yamaha AV Receiver",
+        "description": "Yamaha AV Receiver with Kodi Remote",
         "repository": "https://github.com/thomas-villagers/domoticz-yamaha",
-        "branch": "master"
+        "branch": "master",
+        "folder": "YamahaPlug"
     },
     "Zigate": {
-        "name": "Domoticz-Zigate",
-        "author": "pipiche38",
-        "description": "Zigate plugin",
+        "name": "Zigate plugin",
+        "author": "zaraki673 & pipiche38",
+        "description": "Allow Domoticz to access to the Zigate (Zigbee) worlds of devices",
         "repository": "https://github.com/pipiche38/Domoticz-Zigate",
-        "branch": "stable"
+        "branch": "stable",
+        "folder": "Zigate"
     },
-    "zigbee2mqtt": {
-        "name": "domoticz-zigbee2mqtt-plugin",
+    "Zigbee2MQTT": {
+        "name": "Zigbee2MQTT",
         "author": "stas-demydiuk",
-        "description": "Zigbee2Mqtt",
+        "description": "Domoticz integration with zigbee2mqtt project",
         "repository": "https://github.com/stas-demydiuk/domoticz-zigbee2mqtt-plugin",
-        "branch": "master"
+        "branch": "master",
+        "folder": "zigbee2mqtt"
     }
 }

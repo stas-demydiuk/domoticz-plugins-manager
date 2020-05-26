@@ -155,9 +155,9 @@ define(['app'], function(app) {
                         orderable: false,
                         render: isInstalledRenderer
                     },
+                    { title: 'Plugin', data: 'name' },
                     { title: 'Description', data: 'description' },
                     { title: 'Author', data: 'author' },
-                    { title: 'Plugin Name', data: 'name' },
                     {
                         title: '',
                         className: 'actions-column',
@@ -172,7 +172,7 @@ define(['app'], function(app) {
             table.on('click', '.js-install', function() {
                 var plugin = table.api().row($(this).closest('tr')).data();
 
-                bootbox.confirm('Are you sure you want to install "' + plugin.description + '" plugin?')
+                bootbox.confirm('Are you sure you want to install "' + plugin.name + '" plugin?')
                     .then(function() {
                         return ppManager.sendRequest('install', plugin.key);
                     })
@@ -183,7 +183,10 @@ define(['app'], function(app) {
             table.on('click', '.js-uninstall', function() {
                 var plugin = table.api().row($(this).closest('tr')).data();
 
-                bootbox.confirm('Are you sure you want to uninstall "' + plugin.description + '" plugin?')
+                bootbox.confirm([
+                    'Are you sure you want to uninstall "' + plugin.name + '" plugin?',
+                    'Please make sure you have already removed all hardware that use this plugin.'
+                ].join('<br /><br />'))
                     .then(function() {
                         return ppManager.sendRequest('uninstall', plugin.key);
                     })
@@ -195,7 +198,7 @@ define(['app'], function(app) {
                 var plugin = table.api().row($(this).closest('tr')).data();
 
                 bootbox.confirm([
-                    'Are you sure you want to update "' + plugin.description + '" plugin?',
+                    'Are you sure you want to update "' + plugin.name + '" plugin?',
                     'Updating plugins without verifying their code makes your system vulnerable to developer\'s code intensions!'
                 ].join('<br /><br />'))
                     .then(function() {

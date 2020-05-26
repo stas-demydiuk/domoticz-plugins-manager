@@ -5,21 +5,21 @@ from shutil import rmtree
 
 
 class Plugin():
-    def __init__(self, key, plugin_data):
-        self.key = key
+    def __init__(self, plugin_data):
         self.name = plugin_data['name']
         self.author = plugin_data['author']
         self.description = plugin_data['description']
         self.repository = plugin_data['repository']
         self.branch = plugin_data['branch']
+        self.folder_name = plugin_data['folder']
 
-        self.plugin_folder = str(os.getcwd() + "/plugins/" + self.key)
+        self.plugin_folder = str(os.getcwd() + "/plugins/" + self.folder_name)
 
     def is_installed(self):
         return os.path.isdir(self.plugin_folder) == True
 
     def is_update_available(self):
-        Domoticz.Debug("Checking Plugin:" + self.key + " for updates")
+        Domoticz.Debug('Checking plugin "' + self.name + '" for updates')
 
         if (self.is_installed() == False):
             return False
@@ -56,14 +56,14 @@ class Plugin():
                 elif (str(out).find("Your branch is ahead") != -1) and (str(str(out).find("error")) == "-1"):
                     return False
                 else:
-                    Domoticz.Error("Something went wrong with update of " + self.key)
+                    Domoticz.Error('Something went wrong during plugin "' + self.name + '" update')
                     return None
 
             if error:
                 Domoticz.Debug("Git Error:" + str(error.strip()))
                 
                 if str(error).find("Not a git repository") != -1:
-                    Domoticz.Log("Plugin: " + self.key + " is not installed from gitHub. Ignoring!!.")
+                    Domoticz.Log('Plugin "' + self.name + '" is not installed from gitHub. Ignoring!.')
 
         except OSError as e:
             Domoticz.Error("Git ErrorNo:" + str(e.errno))
@@ -79,7 +79,7 @@ class Plugin():
         
         plugins_folder = os.path.dirname(str(os.getcwd()) + "/plugins/")
         repository = self.repository + ".git"
-        clone_cmd="LANG=en_US /usr/bin/git clone -b " + self.branch + " " + repository + " " + self.key
+        clone_cmd="LANG=en_US /usr/bin/git clone -b " + self.branch + " " + repository + " " + self.folder_name
         Domoticz.Debug("Calling: " + clone_cmd)
 
         try:
@@ -150,6 +150,6 @@ class Plugin():
             rmtree(self.plugin_folder)
             return True
         except Exception as e:
-            Domoticz.Error(e)
+            Domoticz.Error(repr(e))
 
         return False

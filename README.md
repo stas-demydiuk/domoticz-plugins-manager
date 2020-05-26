@@ -38,11 +38,12 @@ git pull
 All available plugins are stored in `plugins.json` file. To add your plugin just add new item to this file following the same structure and then create a pull-request. Plugin item example:
 
 ```
-"BatteryLevel": {
-    "name": "BatteryLevel",
-    "author": "999LV",
-    "description": "Battery monitoring for Z-Wave nodes",
-    "repository": "https://github.com/999LV/BatteryLevel",
-    "branch": "master"
+"plugins-manager": {
+    "name": "Python Plugins Manager",
+    "author": "stas-demydiuk",
+    "description": "Allows to manage python plugins through custom UI page",
+    "repository": "https://github.com/stas-demydiuk/domoticz-plugins-manager",
+    "branch": "master",
+    "folder": "plugins-manager"
 },
 ```
