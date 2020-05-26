@@ -243,7 +243,7 @@
         "author": "thomas-villagers",
         "branch": "master",
         "description": "Yamaha AV Receiver with Kodi Remote",
-        "folder": "YamahaPlug",
+        "folder": "yamaha-av-receiver",
         "name": "Yamaha AV Receiver",
         "repository": "https://github.com/thomas-villagers/domoticz-yamaha"
     },
