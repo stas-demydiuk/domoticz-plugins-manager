@@ -215,6 +215,14 @@
         "name": "SurveillanceStationDomoticz",
         "repository": "https://github.com/lolautruche/SurveillanceStationDomoticz"
     },
+    "TasmotaH801": {
+        "author": "stas-demydiuk",
+        "branch": "master",
+        "description": "Control H801 LED WiFi Controller with Tasmota firmware via MQTT",
+        "folder": "h801-tasmota-plugin",
+        "name": "H801 LED WiFi Controller with Tasmota firmware",
+        "repository": "https://github.com/stas-demydiuk/domoticz-h801-tasmota-plugin"
+    },
     "WAN-IP-CHECKER": {
         "author": "ycahome",
         "branch": "master",
