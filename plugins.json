@@ -87,6 +87,14 @@
         "name": "IKEA-Tradfri-plugin",
         "repository": "https://github.com/moroen/IKEA-Tradfri-plugin"
     },
+    "Kodi": {
+        "author": "dnpwwo",
+        "branch": "master",
+        "description": "Kodi Media Player Plugin",
+        "folder": "Domoticz-Kodi-Plugin",
+        "name": "Kodi Players",
+        "repository": "https://github.com/dnpwwo/Domoticz-Kodi-Plugin"
+    },
     "Life360": {
         "author": "febalci",
         "branch": "master",
