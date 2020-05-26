@@ -395,7 +395,7 @@
         "author": "mrin",
         "branch": "master",
         "description": "Xiaomi Mi Robot Vacuum",
-        "folder": "xiaomi-mi-robot-vacuum",
+        "folder": "xiaomi-mirobot",
         "name": "Xiaomi Mi Robot Vacuum",
         "repository": "https://github.com/mrin/domoticz-mirobot-plugin"
     }
