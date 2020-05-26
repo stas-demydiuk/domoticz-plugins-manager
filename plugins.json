@@ -127,6 +127,14 @@
         "name": "Xiaomi Mi Flower Mate",
         "repository": "https://github.com/flatsiedatsie/Mi_Flower_mate_plugin"
     },
+    "MilightESP8266": {
+        "author": "mrin",
+        "branch": "master",
+        "description": "Support for ESP8266 Milight hub",
+        "folder": "espmilighthub-domoticz",
+        "name": "ESP8266 Milight Hub",
+        "repository": "https://github.com/etsach/espmilighthub-domoticz"
+    },
     "MoonPhases": {
         "author": "ycahome",
         "branch": "master",
