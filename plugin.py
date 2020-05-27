@@ -31,7 +31,6 @@ from api import APIManager
 class BasePlugin:
     def __init__(self):
         self.ui_name = 'plugins-manager'
-        self.plugin_folder = 'plugins-manager'
 
     def onStart(self):
         if Parameters["Mode6"] == 'Debug':
@@ -55,25 +54,39 @@ class BasePlugin:
             return
 
     def install_ui(self):
-        Domoticz.Debug('Installing plugin custom page...')
+        Domoticz.Log('Installing plugin custom page...')
 
-        copy2('./plugins/' + self.plugin_folder + '/frontend/index.html',
-              './www/templates/' + self.ui_name + '.html')
-        copy2('./plugins/' + self.plugin_folder + '/frontend/index.js',
-              './www/templates/' + self.ui_name + '.js')
+        try:
+            source_path = os.path.dirname(os.path.abspath(__file__)) + '/frontend'
+            templates_path = os.path.abspath(source_path + '/../../../www/templates')
 
-        Domoticz.Debug('Installing plugin custom page completed.')
+            Domoticz.Debug('Copying files from ' + source_path + ' to ' + templates_path)
+
+            copy2(source_path + '/index.html', templates_path + '/' + self.ui_name + '.html')
+            copy2(source_path + '/index.js', templates_path + '/' + self.ui_name + '.js')
+
+            Domoticz.Log('Installing plugin custom page completed.')
+        except Exception as e:
+            Domoticz.Error('Error during installing plugin custom page')
+            Domoticz.Error(repr(e))
 
     def uninstall_ui(self):
-        Domoticz.Debug('Uninstalling plugin page...')
+        Domoticz.Log('Uninstalling plugin custom page...')
 
-        if os.path.exists('./www/templates/' + self.ui_name + '.html'):
-            os.remove('./www/templates/' + self.ui_name + '.html')
+        try:
+            plugin_path = os.path.dirname(os.path.abspath(__file__))
+            templates_path = os.path.abspath(plugin_path + '/../../www/templates/')
+            
+            if os.path.exists(templates_path + self.ui_name + '.html'):
+                os.remove(templates_path + self.ui_name + '.html')
 
-        if os.path.exists('./www/templates/' + self.ui_name + '.js'):
-            os.remove('./www/templates/' + self.ui_name + '.js')
+            if os.path.exists(templates_path + self.ui_name + '.js'):
+                os.remove(templates_path + self.ui_name + '.js')
 
-        Domoticz.Debug('Uninstalling plugin custom page completed.')
+            Domoticz.Log('Uninstalling plugin custom page completed.')
+        except Exception as e:
+            Domoticz.Error('Error during uninstalling plugin custom page')
+            Domoticz.Error(repr(e))
 
 
 global _plugin
