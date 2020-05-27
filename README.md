@@ -15,7 +15,7 @@ Based on [pp-manager](https://github.com/ycahome/pp-manager)
 
 ## Installation
 
-1. Clone repository into your domoticz plugins folder (make sure that you use `plugins-manager` directory for this plugin, it is really important!)
+1. Clone repository into your domoticz plugins folder
 ```
 cd domoticz/plugins
 git clone https://github.com/stas-demydiuk/domoticz-plugins-manager.git plugins-manager
