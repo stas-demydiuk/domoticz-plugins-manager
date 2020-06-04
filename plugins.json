@@ -63,6 +63,14 @@
         "name": "GoodWE Solar inverter via SEMS API",
         "repository": "https://github.com/JanJaapKo/domoticz-GoodWeSEMS"
     },
+    "Hisense-AEH-W4A1": {
+        "author": "x-th-unicorn",
+        "branch": "master",
+        "description": "Domoticz Python plugin for Hisense AC (AEH-W4A1)",
+        "folder": "domoticz-aeh-w4a1",
+        "name": "domoticz-aeh-w4a1",
+        "repository": "https://github.com/x-th-unicorn/domoticz-aeh-w4a1"
+    },
     "HivePlug": {
         "author": "imcfarla2003",
         "branch": "master",
