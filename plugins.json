@@ -247,6 +247,14 @@
         "name": "H801 LED WiFi Controller with Tasmota firmware",
         "repository": "https://github.com/stas-demydiuk/domoticz-h801-tasmota-plugin"
     },
+    "domoticz-theme-manager": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "Install and update themes via this theme manager",
+        "folder": "domoticz-theme-manager",
+        "name": "Domoticz Theme Manager ",
+        "repository": "https://github.com/galadril/domoticz-theme-manager"
+    },
     "WAN-IP-CHECKER": {
         "author": "ycahome",
         "branch": "master",
@@ -422,5 +430,13 @@
         "folder": "xiaomi-mirobot",
         "name": "Xiaomi Mi Robot Vacuum",
         "repository": "https://github.com/mrin/domoticz-mirobot-plugin"
+    },
+    "yi-hack": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "Yi Hack Plugin",
+        "folder": "yi-hack",
+        "name": "Yi Hack Plugin",
+        "repository": "https://github.com/galadril/Domoticz-Yi-Hack-Plugin"
     }
 }
