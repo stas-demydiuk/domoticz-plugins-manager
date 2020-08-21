@@ -423,6 +423,14 @@
         "name": "Domoticz-Speedtest-Plugin",
         "repository": "https://github.com/Xorfor/Domoticz-Speedtest-Plugin"
     },
+    "WLANThermo": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "WLANThermo",
+        "folder": "Domoticz-WLANThermo-Plugin",
+        "name": "WLANThermo",
+        "repository": "https://github.com/galadril/Domoticz-WLANThermo-Plugin"
+    },
     "xiaomi-mi-robot-vacuum": {
         "author": "mrin",
         "branch": "master",
