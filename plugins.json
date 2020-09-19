@@ -215,6 +215,14 @@
         "name": "DomoticzEarthquake",
         "repository": "https://github.com/febalci/DomoticzEarthquake"
     },
+    "Shelly_MQTT": {
+        "author": "enesbcs",
+        "branch": "master",
+        "description": "Shelly MQTT translator",
+        "folder": "Shelly_MQTT",
+        "name": "Shelly MQTT",
+        "repository": "https://github.com/enesbcs/Shelly_MQTT"
+    },
     "SmogTok": {
         "author": "smogtok",
         "branch": "master",
@@ -359,6 +367,14 @@
         "name": "domoticz-routeros-plugin",
         "repository": "https://github.com/mrin/domoticz-routeros-plugin"
     },
+    "owrtwifi2domo": {
+        "author": "enesbcs",
+        "branch": "master",
+        "description": "OpenWRT Wifi Presence Detector to MQTT translator",
+        "folder": "owrtwifi2domo",
+        "name": "OpenWRT Wifi Presence MQTT",
+        "repository": "https://github.com/enesbcs/owrtwifi2domo"
+    },
     "plugins-manager": {
         "author": "stas-demydiuk",
         "branch": "master",
@@ -366,6 +382,14 @@
         "folder": "plugins-manager",
         "name": "Python Plugins Manager",
         "repository": "https://github.com/stas-demydiuk/domoticz-plugins-manager"
+    },
+    "pyrtl433": {
+        "author": "enesbcs",
+        "branch": "master",
+        "description": "RTL_433 MQTT receiver",
+        "folder": "pyrtl433",
+        "name": "RTL433 MQTT",
+        "repository": "https://github.com/enesbcs/pyrtl433"
     },
     "sony": {
         "author": "gerard33",
