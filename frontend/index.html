@@ -5,20 +5,19 @@
         <a class="btnstylerev" back-button>{{ ::'Back' | translate }}</a>
         <h2 class="page-header">Python Plugins Manager</h2>
 
-        <page-loading-indicator ng-hide="::$ctrl.plugins"/>
+        <page-loading-indicator ng-hide="::$ctrl.plugins"></page-loading-indicator>
 
         <pp-manager-plugins-table
                 ng-if="::$ctrl.plugins"
                 plugins="$ctrl.plugins"
-                on-update="$ctrl.refreshPlugins()"
-        />
+                on-update="$ctrl.refreshPlugins()"></pp-manager-plugins-table>
     </div>
 </script>
 
 <script>
     require(['../templates/plugins-manager'], function() {
         angular.element(document).injector().invoke(function($compile) {
-            var $div = angular.element('<pp-manager-plugin />');
+            var $div = angular.element('<pp-manager-plugin></pp-manager-plugin>');
             angular.element('#plugin-view').append($div);
 
             var scope = angular.element($div).scope();
