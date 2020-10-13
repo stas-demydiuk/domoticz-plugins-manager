@@ -455,6 +455,14 @@
         "name": "WLANThermo",
         "repository": "https://github.com/galadril/Domoticz-WLANThermo-Plugin"
     },
+    "WLED": {
+        "author": "frustreermeneer",
+        "branch": "master",
+        "description": "WLED",
+        "folder": "wled",
+        "name": "WLED Plugin",
+        "repository": "https://github.com/frustreermeneer/domoticz-wled-plugin"
+    },
     "xiaomi-mi-robot-vacuum": {
         "author": "mrin",
         "branch": "master",
