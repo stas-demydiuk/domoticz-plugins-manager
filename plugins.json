@@ -121,7 +121,7 @@
     },
     "MQTTDiscovery": {
         "author": "emontnemery",
-        "branch": "master",
+        "branch": "development",
         "description": "MQTT discovery",
         "folder": "MQTTDiscovery",
         "name": "domoticz_mqtt_discovery",
