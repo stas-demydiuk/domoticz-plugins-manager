@@ -255,6 +255,14 @@
         "name": "H801 LED WiFi Controller with Tasmota firmware",
         "repository": "https://github.com/stas-demydiuk/domoticz-h801-tasmota-plugin"
     },
+    "Thermostat Weekly Scheduler": {
+        "author": "ArtBern",
+        "branch": "master",
+        "description": "Manipulate schedule for virtual thermostat on weekly basis. Easy switch for timer plans.",
+        "folder": "thermostat-weekly-scheduler",
+        "name": "Thermostat Weekly Scheduler",
+        "repository": "https://github.com/ArtBern/Scheduler"
+    },
     "domoticz-theme-manager": {
         "author": "galadril",
         "branch": "master",
