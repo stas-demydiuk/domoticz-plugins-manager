@@ -478,5 +478,13 @@
         "folder": "yi-hack",
         "name": "Yi Hack Plugin",
         "repository": "https://github.com/galadril/Domoticz-Yi-Hack-Plugin"
+    },
+	    "Update_timer_Plugin": {
+        "author": "skarab22",
+        "branch": "master",
+        "description": "Synchronize your devices on the corresponding active timer",
+        "folder": "Update_timer",
+        "name": "Update_timer Plugin",
+        "repository": "https://github.com/skarab22/Domoticz-sync-timer"
     }
 }
