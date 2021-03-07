@@ -5,7 +5,7 @@ from shutil import rmtree
 
 
 class Plugin():
-    def __init__(self, plugin_data):
+    def __init__(self, plugins_folder, plugin_data):
         self.name = plugin_data['name']
         self.author = plugin_data['author']
         self.description = plugin_data['description']
@@ -13,7 +13,7 @@ class Plugin():
         self.branch = plugin_data['branch']
         self.folder_name = plugin_data['folder']
 
-        self.plugin_folder = str(os.getcwd() + "/plugins/" + self.folder_name)
+        self.plugin_folder = str(plugins_folder + self.folder_name)
 
     def is_installed(self):
         return os.path.isdir(self.plugin_folder) == True
