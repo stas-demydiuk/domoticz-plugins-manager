@@ -231,6 +231,14 @@
         "name": "smogtokdomoticzplug",
         "repository": "https://github.com/smogtok/smogtokdomoticzplug"
     },
+    "solaredge modbus_tcp": {
+        "author": "addiejansen",
+        "branch": "master",
+        "description": "collect data from SolarEdge power inverters over ModbusTCP.",
+        "folder": "domoticz-solaredge-modbustcp-plugin",
+        "name": "solaredge modbus-tcp",
+        "repository": "https://github.com/addiejanssen/domoticz-solaredge-modbustcp-plugin"
+    },
     "Sonos": {
         "author": "gerard33",
         "branch": "master",
@@ -487,7 +495,7 @@
         "name": "Yi Hack Plugin",
         "repository": "https://github.com/galadril/Domoticz-Yi-Hack-Plugin"
     },
-	    "Update_timer_Plugin": {
+    "Update_timer_Plugin": {
         "author": "skarab22",
         "branch": "master",
         "description": "Synchronize your devices on the corresponding active timer",
