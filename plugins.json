@@ -30,7 +30,15 @@
         "folder": "ChromecastPlugin",
         "name": "ChromecastPlugin",
         "repository": "https://github.com/Tsjippy/ChromecastPlugin"
-    },
+	},
+	"CreasolDombusPlugin": {
+		"author": "CreasolTech",
+		"branch": "master",
+		"description": "Creasol DomBus RS485 modules (I/Os and sensors)",
+		"folder": "CreasolDomBus",
+		"name": "CreasolDomBusPlugin",
+		"repository": "https://github.com/CreasolTech/CreasolDomBus"
+	},
     "Denon4306": {
         "author": "dnpwwo",
         "branch": "master",
