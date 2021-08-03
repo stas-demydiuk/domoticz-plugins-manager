@@ -103,7 +103,15 @@
         "name": "IKEA-Tradfri-plugin",
         "repository": "https://github.com/moroen/IKEA-Tradfri-plugin"
     },
-    "Kodi": {
+	"KiaUVOHyundaiBlueLink": {
+		"author": "CreasolTech",
+		"branch": "master",
+		"description": "Kia UVO and Hyundai BlueLink vehicles",
+		"folder": "domoticz-kia-hyundai",
+		"name": "Kia UVO and Hyundai BlueLink vehicles plugin",
+		"repository": "https://github.com/CreasolTech/domoticz-kia-hyundai"
+	},
+     "Kodi": {
         "author": "dnpwwo",
         "branch": "master",
         "description": "Kodi Media Player Plugin",
