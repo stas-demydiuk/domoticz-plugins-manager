@@ -518,5 +518,14 @@
         "folder": "Update_timer",
         "name": "Update_timer Plugin",
         "repository": "https://github.com/skarab22/Domoticz-sync-timer"
+    },
+    "Tasmoticz": {
+        "author": "joba-1",
+        "branch": "master",
+        "description": "Python plugin for autodetecting ESP8266 devices with Tasmota firmware in Domoticz Homeautomation.",
+        "folder": "Tasmoticz",
+        "name": "Tasmoticz",
+        "repository": "https://github.com/joba-1/Tasmoticz"
     }
+
 }
