@@ -526,6 +526,13 @@
         "folder": "Tasmoticz",
         "name": "Tasmoticz",
         "repository": "https://github.com/joba-1/Tasmoticz"
+    },
+    "WuDirect": {
+        "author": "vaneeten",
+        "branch": "master",
+        "description": "Direct reception and parsing of Wunderground-formatted Weatherstation data.",
+        "folder": "domoticz-wudirect",
+        "name": "WuDirect",
+        "repository": "https://github.com/vaneeten/domoticz-wudirect"
     }
-
 }
