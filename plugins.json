@@ -321,10 +321,10 @@
     },
     "Zigate": {
         "author": "zaraki673 & pipiche38",
-        "branch": "stable5",
+        "branch": "stable6",
         "description": "Allow Domoticz to access to the Zigbee worlds of devices",
         "folder": "Zigate",
-        "name": "Zigbee plugin",
+        "name": "Zigbee for domoticz plugin",
         "repository": "https://github.com/zigbeefordomoticz/Domoticz-Zigbee"
     },
     "Zigbee2MQTT": {
