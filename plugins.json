@@ -527,10 +527,18 @@
         "name": "Tasmoticz",
         "repository": "https://github.com/joba-1/Tasmoticz"
     },
+    "Tuya": {
+        "author": "guino",
+        "branch": "master",
+        "description": "Controls TUYA devices your network (mainly on/off switches and Lights).",
+        "folder": "tuyaha",
+        "name": "Tuya",
+        "repository": "https://github.com/guino/tuyaha"
+    },
     "WuDirect": {
         "author": "vaneeten",
         "branch": "master",
-        "description": "Direct reception and parsing of Wunderground-formatted Weatherstation data.",
+        "description": "Controls TUYA devices your network (mainly on/off switches and Lights).",
         "folder": "domoticz-wudirect",
         "name": "WuDirect",
         "repository": "https://github.com/vaneeten/domoticz-wudirect"
