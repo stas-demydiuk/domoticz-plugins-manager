@@ -24,7 +24,7 @@ import Domoticz
 import platform
 import os
 from shutil import copy2
-from plugins import plugins
+from plugins import load
 from api import APIManager
 
 
@@ -33,6 +33,8 @@ class BasePlugin:
         self.ui_name = 'plugins-manager'
 
     def onStart(self):
+        load(Parameters['HomeFolder'])
+
         if Parameters["Mode6"] == 'Debug':
             Domoticz.Debugging(2)
         else:
@@ -57,8 +59,8 @@ class BasePlugin:
         Domoticz.Log('Installing plugin custom page...')
 
         try:
-            source_path = os.path.dirname(os.path.abspath(__file__)) + '/frontend'
-            templates_path = os.path.abspath(source_path + '/../../../www/templates')
+            source_path = Parameters['HomeFolder'] + 'frontend'
+            templates_path = Parameters['StartupFolder'] + 'www/templates'
 
             Domoticz.Debug('Copying files from ' + source_path + ' to ' + templates_path)
 
@@ -74,8 +76,7 @@ class BasePlugin:
         Domoticz.Log('Uninstalling plugin custom page...')
 
         try:
-            plugin_path = os.path.dirname(os.path.abspath(__file__))
-            templates_path = os.path.abspath(plugin_path + '/../../www/templates/')
+            templates_path = Parameters['StartupFolder'] + 'www/templates'
             
             if os.path.exists(templates_path + self.ui_name + '.html'):
                 os.remove(templates_path + self.ui_name + '.html')

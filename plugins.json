@@ -30,7 +30,15 @@
         "folder": "ChromecastPlugin",
         "name": "ChromecastPlugin",
         "repository": "https://github.com/Tsjippy/ChromecastPlugin"
-    },
+	},
+	"CreasolDombusPlugin": {
+		"author": "CreasolTech",
+		"branch": "master",
+		"description": "Creasol DomBus RS485 modules (I/Os and sensors)",
+		"folder": "CreasolDomBus",
+		"name": "CreasolDomBusPlugin",
+		"repository": "https://github.com/CreasolTech/CreasolDomBus"
+	},
     "Denon4306": {
         "author": "dnpwwo",
         "branch": "master",
@@ -95,7 +103,15 @@
         "name": "IKEA-Tradfri-plugin",
         "repository": "https://github.com/moroen/IKEA-Tradfri-plugin"
     },
-    "Kodi": {
+	"KiaUVOHyundaiBlueLink": {
+		"author": "CreasolTech",
+		"branch": "master",
+		"description": "Kia UVO and Hyundai BlueLink vehicles",
+		"folder": "domoticz-kia-hyundai",
+		"name": "Kia UVO and Hyundai BlueLink vehicles plugin",
+		"repository": "https://github.com/CreasolTech/domoticz-kia-hyundai"
+	},
+     "Kodi": {
         "author": "dnpwwo",
         "branch": "master",
         "description": "Kodi Media Player Plugin",
@@ -121,7 +137,7 @@
     },
     "MQTTDiscovery": {
         "author": "emontnemery",
-        "branch": "master",
+        "branch": "development",
         "description": "MQTT discovery",
         "folder": "MQTTDiscovery",
         "name": "domoticz_mqtt_discovery",
@@ -215,6 +231,14 @@
         "name": "DomoticzEarthquake",
         "repository": "https://github.com/febalci/DomoticzEarthquake"
     },
+    "Shelly_MQTT": {
+        "author": "enesbcs",
+        "branch": "master",
+        "description": "Shelly MQTT translator",
+        "folder": "Shelly_MQTT",
+        "name": "Shelly MQTT",
+        "repository": "https://github.com/enesbcs/Shelly_MQTT"
+    },
     "SmogTok": {
         "author": "smogtok",
         "branch": "master",
@@ -222,6 +246,14 @@
         "folder": "SmogTok",
         "name": "smogtokdomoticzplug",
         "repository": "https://github.com/smogtok/smogtokdomoticzplug"
+    },
+    "solaredge modbus_tcp": {
+        "author": "addiejansen",
+        "branch": "master",
+        "description": "collect data from SolarEdge power inverters over ModbusTCP.",
+        "folder": "domoticz-solaredge-modbustcp-plugin",
+        "name": "solaredge modbus-tcp",
+        "repository": "https://github.com/addiejanssen/domoticz-solaredge-modbustcp-plugin"
     },
     "Sonos": {
         "author": "gerard33",
@@ -246,6 +278,22 @@
         "folder": "h801-tasmota-plugin",
         "name": "H801 LED WiFi Controller with Tasmota firmware",
         "repository": "https://github.com/stas-demydiuk/domoticz-h801-tasmota-plugin"
+    },
+    "Thermostat Weekly Scheduler": {
+        "author": "ArtBern",
+        "branch": "master",
+        "description": "Manipulate schedule for virtual thermostat on weekly basis. Easy switch for timer plans.",
+        "folder": "thermostat-weekly-scheduler",
+        "name": "Thermostat Weekly Scheduler",
+        "repository": "https://github.com/ArtBern/Scheduler"
+    },
+    "domoticz-theme-manager": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "Install and update themes via this theme manager",
+        "folder": "domoticz-theme-manager",
+        "name": "Domoticz Theme Manager ",
+        "repository": "https://github.com/galadril/domoticz-theme-manager"
     },
     "WAN-IP-CHECKER": {
         "author": "ycahome",
@@ -273,11 +321,11 @@
     },
     "Zigate": {
         "author": "zaraki673 & pipiche38",
-        "branch": "stable",
-        "description": "Allow Domoticz to access to the Zigate (Zigbee) worlds of devices",
+        "branch": "stable6",
+        "description": "Allow Domoticz to access to the Zigbee worlds of devices",
         "folder": "Zigate",
-        "name": "Zigate plugin",
-        "repository": "https://github.com/pipiche38/Domoticz-Zigate"
+        "name": "Zigbee for domoticz plugin",
+        "repository": "https://github.com/zigbeefordomoticz/Domoticz-Zigbee"
     },
     "Zigbee2MQTT": {
         "author": "stas-demydiuk",
@@ -351,6 +399,14 @@
         "name": "domoticz-routeros-plugin",
         "repository": "https://github.com/mrin/domoticz-routeros-plugin"
     },
+    "owrtwifi2domo": {
+        "author": "enesbcs",
+        "branch": "master",
+        "description": "OpenWRT Wifi Presence Detector to MQTT translator",
+        "folder": "owrtwifi2domo",
+        "name": "OpenWRT Wifi Presence MQTT",
+        "repository": "https://github.com/enesbcs/owrtwifi2domo"
+    },
     "plugins-manager": {
         "author": "stas-demydiuk",
         "branch": "master",
@@ -358,6 +414,14 @@
         "folder": "plugins-manager",
         "name": "Python Plugins Manager",
         "repository": "https://github.com/stas-demydiuk/domoticz-plugins-manager"
+    },
+    "pyrtl433": {
+        "author": "enesbcs",
+        "branch": "master",
+        "description": "RTL_433 MQTT receiver",
+        "folder": "pyrtl433",
+        "name": "RTL433 MQTT",
+        "repository": "https://github.com/enesbcs/pyrtl433"
     },
     "sony": {
         "author": "gerard33",
@@ -415,6 +479,22 @@
         "name": "Domoticz-Speedtest-Plugin",
         "repository": "https://github.com/Xorfor/Domoticz-Speedtest-Plugin"
     },
+    "WLANThermo": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "WLANThermo",
+        "folder": "Domoticz-WLANThermo-Plugin",
+        "name": "WLANThermo",
+        "repository": "https://github.com/galadril/Domoticz-WLANThermo-Plugin"
+    },
+    "WLED": {
+        "author": "frustreermeneer",
+        "branch": "master",
+        "description": "WLED",
+        "folder": "wled",
+        "name": "WLED Plugin",
+        "repository": "https://github.com/frustreermeneer/domoticz-wled-plugin"
+    },
     "xiaomi-mi-robot-vacuum": {
         "author": "mrin",
         "branch": "master",
@@ -422,5 +502,37 @@
         "folder": "xiaomi-mirobot",
         "name": "Xiaomi Mi Robot Vacuum",
         "repository": "https://github.com/mrin/domoticz-mirobot-plugin"
+    },
+    "yi-hack": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "Yi Hack Plugin",
+        "folder": "yi-hack",
+        "name": "Yi Hack Plugin",
+        "repository": "https://github.com/galadril/Domoticz-Yi-Hack-Plugin"
+    },
+    "Update_timer_Plugin": {
+        "author": "skarab22",
+        "branch": "master",
+        "description": "Synchronize your devices on the corresponding active timer",
+        "folder": "Update_timer",
+        "name": "Update_timer Plugin",
+        "repository": "https://github.com/skarab22/Domoticz-sync-timer"
+    },
+    "Tasmoticz": {
+        "author": "joba-1",
+        "branch": "master",
+        "description": "Python plugin for autodetecting ESP8266 devices with Tasmota firmware in Domoticz Homeautomation.",
+        "folder": "Tasmoticz",
+        "name": "Tasmoticz",
+        "repository": "https://github.com/joba-1/Tasmoticz"
+    },
+    "WuDirect": {
+        "author": "vaneeten",
+        "branch": "master",
+        "description": "Direct reception and parsing of Wunderground-formatted Weatherstation data.",
+        "folder": "domoticz-wudirect",
+        "name": "WuDirect",
+        "repository": "https://github.com/vaneeten/domoticz-wudirect"
     }
 }
