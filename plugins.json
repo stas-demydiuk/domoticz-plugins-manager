@@ -538,7 +538,7 @@
     "WuDirect": {
         "author": "vaneeten",
         "branch": "master",
-        "description": "Controls TUYA devices your network (mainly on/off switches and Lights).",
+        "description": "Direct reception and parsing of Wunderground-formatted Weatherstation data.",
         "folder": "domoticz-wudirect",
         "name": "WuDirect",
         "repository": "https://github.com/vaneeten/domoticz-wudirect"
