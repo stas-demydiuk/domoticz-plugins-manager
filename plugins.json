@@ -71,6 +71,14 @@
         "name": "GoodWE Solar inverter via SEMS API",
         "repository": "https://github.com/JanJaapKo/domoticz-GoodWeSEMS"
     },
+    "GoveeDiscovery": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "Plugin to discover Govee devices on the local network and create/update devices in Domoticz",
+        "folder": "Domoticz-Govee-Plugin",
+        "name": "Govee Local Api Control",
+        "repository": "https://github.com/galadril/Domoticz-Govee-Plugin"
+    },
     "Hisense-AEH-W4A1": {
         "author": "x-th-unicorn",
         "branch": "master",
