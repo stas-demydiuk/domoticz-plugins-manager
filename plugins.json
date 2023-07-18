@@ -550,5 +550,13 @@
         "folder": "domoticz-wudirect",
         "name": "WuDirect",
         "repository": "https://github.com/vaneeten/domoticz-wudirect"
+    },
+    "Panasonic Cloud Comfort": {
+        "author": "sdamasoc",
+        "branch": "master",
+        "description": "Panasonic Cloud Comfort plugin (originally CZ-TACG1 but works for all)",
+        "folder": "domoticz_panasonic_CZ-TACG1",
+        "name": "Panasonic Cloud Comfort",
+        "repository": "https://github.com/sdamasoc/domoticz_panasonic_CZ-TACG1"
     }
 }
