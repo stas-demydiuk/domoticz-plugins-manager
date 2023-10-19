@@ -207,6 +207,14 @@
         "name": "DomoticzPioneerAVR",
         "repository": "https://github.com/febalci/DomoticzPioneerAVR"
     },
+    "Quatt": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "Quatt",
+        "folder": "Domoticz-Quatt-Plugin",
+        "name": "Domoticz-Quatt-Plugin",
+        "repository": "https://github.com/galadril/Domoticz-Quatt-Plugin"
+    },
     "RAVEn": {
         "author": "dnpwwo",
         "branch": "master",
