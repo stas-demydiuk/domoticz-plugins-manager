@@ -31,14 +31,14 @@
         "name": "ChromecastPlugin",
         "repository": "https://github.com/Tsjippy/ChromecastPlugin"
 	},
-	"CreasolDombusPlugin": {
-		"author": "CreasolTech",
-		"branch": "master",
-		"description": "Creasol DomBus RS485 modules (I/Os and sensors)",
-		"folder": "CreasolDomBus",
-		"name": "CreasolDomBusPlugin",
-		"repository": "https://github.com/CreasolTech/CreasolDomBus"
-	},
+    "CreasolDombusPlugin": {
+        "author": "CreasolTech",
+        "branch": "master",
+        "description": "Creasol DomBus RS485 modules (I/Os and sensors)",
+        "folder": "CreasolDomBus",
+        "name": "CreasolDomBusPlugin",
+        "repository": "https://github.com/CreasolTech/CreasolDomBus"
+    },
     "Denon4306": {
         "author": "dnpwwo",
         "branch": "master",
@@ -54,6 +54,14 @@
         "folder": "DysonPureLink",
         "name": "Dyson Pure Link",
         "repository": "https://github.com/JanJaapKo/DysonPureLink"
+    },
+    "EmmetiMirai": {
+        "author": "CreasolTech",
+        "branch": "master",
+        "description": "Emmeti Mirai heat pumps management",
+        "folder": "domoticz-emmeti-mirai",
+        "name": "Emmeti Mirai heat pump",
+        "repository": "https://github.com/CreasolTech/domoticz-emmeti-mirai"
     },
     "GC-100": {
         "author": "dnpwwo",
@@ -102,6 +110,14 @@
         "folder": "Homewizard",
         "name": "domoticz-homewizard",
         "repository": "https://github.com/rvdvoorde/domoticz-homewizard"
+    },
+    "HyundaiKia": {
+        "author": "CreasolTech",
+        "branch": "master",
+        "description": "Hyundai and Kia connect cars",
+        "folder": "domoticz-hyundai-kia",
+        "name": "Hyundai and kia connect cars",
+        "repository": "https://github.com/CreasolTech/domoticz-hyundai-kia"
     },
     "IKEA-Tradfri": {
         "author": "moroen",
