@@ -223,6 +223,14 @@
         "name": "DomoticzPioneerAVR",
         "repository": "https://github.com/febalci/DomoticzPioneerAVR"
     },
+    "PZEM-016": {
+        "author": "CreasolTech",
+        "branch": "master",
+        "description": "PZEM-016 PZEM-014 energy meters",
+        "folder": "domoticz-pzem-016",
+        "name": "PZEM-016 PZEM-014 energy meters",
+        "repository": "https://github.com/CreasolTech/domoticz-pzem-016"
+    },
     "Quatt": {
         "author": "galadril",
         "branch": "master",
