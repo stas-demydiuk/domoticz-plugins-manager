@@ -226,9 +226,9 @@
     "PZEM-016": {
         "author": "CreasolTech",
         "branch": "master",
-        "description": "PZEM-016 PZEM-014 energy meters",
+        "description": "PZEM-016 PZEM-014 and PZEM-004T energy meters",
         "folder": "domoticz-pzem-016",
-        "name": "PZEM-016 PZEM-014 energy meters",
+        "name": "PZEM-016 PZEM-014 PZEM-004T energy meters",
         "repository": "https://github.com/CreasolTech/domoticz-pzem-016"
     },
     "Quatt": {
