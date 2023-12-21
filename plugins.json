@@ -226,7 +226,7 @@
     "PZEM-016": {
         "author": "CreasolTech",
         "branch": "master",
-        "description": "PZEM-016 PZEM-014 and PZEM-004T energy meters",
+        "description": "PZEM-016 PZEM-014 and PZEM-004T energy meters (supports up to 51 meters on the same bus)",
         "folder": "domoticz-pzem-016",
         "name": "PZEM-016 PZEM-014 PZEM-004T energy meters",
         "repository": "https://github.com/CreasolTech/domoticz-pzem-016"
