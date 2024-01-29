@@ -39,6 +39,14 @@
         "name": "CreasolDomBusPlugin",
         "repository": "https://github.com/CreasolTech/CreasolDomBus"
     },
+    "DDS238": {
+        "author": "CreasolTech",
+        "branch": "master",
+        "description": "DDS238 ZN/S energy meter, single phase, Modbus RTU",
+        "folder": "domoticz-dds238",
+        "name": "domoticz-dds238",
+        "repository": "https://github.com/CreasolTech/domoticz-dds238"
+    },
     "Denon4306": {
         "author": "dnpwwo",
         "branch": "master",
