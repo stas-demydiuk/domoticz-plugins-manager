@@ -151,6 +151,14 @@
         "name": "IKEA-Tradfri-plugin",
         "repository": "https://github.com/moroen/IKEA-Tradfri-plugin"
     },
+    "IthoWifi": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "Itho Wifi module",
+        "folder": "Domoticz-Itho-Wifi-Plugin",
+        "name": "Domoticz-Itho-Wifi-Plugin",
+        "repository": "https://github.com/galadril/Domoticz-Itho-Wifi-Plugin"
+    },
 	"KiaUVOHyundaiBlueLink": {
 		"author": "CreasolTech",
 		"branch": "master",
