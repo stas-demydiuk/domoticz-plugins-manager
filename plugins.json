@@ -39,6 +39,22 @@
         "name": "CreasolDomBusPlugin",
         "repository": "https://github.com/CreasolTech/CreasolDomBus"
     },
+    "DDS238": {
+        "author": "CreasolTech",
+        "branch": "master",
+        "description": "DDS238 ZN/S energy meter, single phase, Modbus RTU",
+        "folder": "domoticz-dds238",
+        "name": "domoticz-dds238",
+        "repository": "https://github.com/CreasolTech/domoticz-dds238"
+    },
+    "DTS238": {
+        "author": "CreasolTech",
+        "branch": "master",
+        "description": "DTS238 ZN/S energy meter, three phase, Modbus RTU",
+        "folder": "domoticz-dts238",
+        "name": "domoticz-dts238",
+        "repository": "https://github.com/CreasolTech/domoticz-dts238"
+    },
     "Denon4306": {
         "author": "dnpwwo",
         "branch": "master",
@@ -54,6 +70,14 @@
         "folder": "DysonPureLink",
         "name": "Dyson Pure Link",
         "repository": "https://github.com/JanJaapKo/DysonPureLink"
+    },
+    "EmmetiEQ2021": {
+        "author": "CreasolTech",
+        "branch": "master",
+        "description": "Emmeti EQ 2021 and EQ 3021 ES hot water heat pumps",
+        "folder": "domoticz-emmeti-eq2021",
+        "name": "Emmeti hot water heat pump",
+        "repository": "https://github.com/CreasolTech/domoticz-emmeti-eq2021"
     },
     "EmmetiMirai": {
         "author": "CreasolTech",
