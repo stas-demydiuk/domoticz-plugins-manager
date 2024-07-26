@@ -71,6 +71,14 @@
         "name": "Dyson Pure Link",
         "repository": "https://github.com/JanJaapKo/DysonPureLink"
     },
+    "E-Flux": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "'E-Flux by Road' back office of your EV Charger",
+        "folder": "Domoticz-E-Flux-Plugin",
+        "name": "E-Flux",
+        "repository": "https://github.com/galadril/Domoticz-E-Flux-Plugin"
+    },
     "EmmetiEQ2021": {
         "author": "CreasolTech",
         "branch": "master",
