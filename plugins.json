@@ -175,14 +175,6 @@
         "name": "Domoticz-Itho-Wifi-Plugin",
         "repository": "https://github.com/galadril/Domoticz-Itho-Wifi-Plugin"
     },
-	"KiaUVOHyundaiBlueLink": {
-		"author": "CreasolTech",
-		"branch": "master",
-		"description": "Kia UVO and Hyundai BlueLink vehicles",
-		"folder": "domoticz-kia-hyundai",
-		"name": "Kia UVO and Hyundai BlueLink vehicles plugin",
-		"repository": "https://github.com/CreasolTech/domoticz-kia-hyundai"
-	},
      "Kodi": {
         "author": "dnpwwo",
         "branch": "master",
@@ -190,14 +182,6 @@
         "folder": "Domoticz-Kodi-Plugin",
         "name": "Kodi Players",
         "repository": "https://github.com/dnpwwo/Domoticz-Kodi-Plugin"
-    },
-    "Life360": {
-        "author": "febalci",
-        "branch": "master",
-        "description": "Life 360 Presence",
-        "folder": "Life360",
-        "name": "DomoticzLife360",
-        "repository": "https://github.com/febalci/DomoticzLife360"
     },
     "Linky": {
         "author": "guillaumezin",
@@ -263,14 +247,6 @@
         "name": "domoticz-onkyo-plugin",
         "repository": "https://github.com/jorgh6/domoticz-onkyo-plugin"
     },
-    "PioneerAVR": {
-        "author": "febalci",
-        "branch": "master",
-        "description": "Pioneer AVR",
-        "folder": "PioneerAVR",
-        "name": "DomoticzPioneerAVR",
-        "repository": "https://github.com/febalci/DomoticzPioneerAVR"
-    },
     "PZEM-016": {
         "author": "CreasolTech",
         "branch": "master",
@@ -310,14 +286,6 @@
         "folder": "SYSFS-Switches",
         "name": "GPIO-SYSFS-Switches",
         "repository": "https://github.com/flatsiedatsie/GPIO-SYSFS-Switches"
-    },
-    "SeismicPortal": {
-        "author": "febalci",
-        "branch": "master",
-        "description": "Eartquake EMSC Data",
-        "folder": "SeismicPortal",
-        "name": "DomoticzEarthquake",
-        "repository": "https://github.com/febalci/DomoticzEarthquake"
     },
     "Shelly_MQTT": {
         "author": "enesbcs",
@@ -390,14 +358,6 @@
         "folder": "WAN-IP-CHECKER",
         "name": "WAN-IP-CHECKER",
         "repository": "https://github.com/ycahome/WAN-IP-CHECKER"
-    },
-    "XiaomiPM": {
-        "author": "febalci",
-        "branch": "master",
-        "description": "Xiaomi PM2.5 Sensor",
-        "folder": "XiaomiPM",
-        "name": "Xiaomi PM2.5 Sensor",
-        "repository": "https://github.com/febalci/DomoticzXiaomiPM2.5"
     },
     "YamahaPlug": {
         "author": "thomas-villagers",
@@ -518,54 +478,6 @@
         "folder": "sony",
         "name": "sony-bravia",
         "repository": "https://github.com/gerard33/sony-bravia"
-    },
-    "xfr-pimonitor": {
-        "author": "Xorfor",
-        "branch": "master",
-        "description": "PiMonitor",
-        "folder": "xfr-pimonitor",
-        "name": "Domoticz-PiMonitor-Plugin",
-        "repository": "https://github.com/Xorfor/Domoticz-PiMonitor-Plugin"
-    },
-    "xfr_aardbeving": {
-        "author": "Xorfor",
-        "branch": "master",
-        "description": "Dutch earthquakes",
-        "folder": "xfr_aardbeving",
-        "name": "Domoticz-LastDutchEarthquake-Plugin",
-        "repository": "https://github.com/Xorfor/Domoticz-LastDutchEarthquake-Plugin"
-    },
-    "xfr_discusage": {
-        "author": "Xorfor",
-        "branch": "master",
-        "description": "Disc usage",
-        "folder": "xfr_discusage",
-        "name": "Domoticz-Disc-usage-Plugin",
-        "repository": "https://github.com/Xorfor/Domoticz-Disc-usage-Plugin"
-    },
-    "xfr_openaq": {
-        "author": "Xorfor",
-        "branch": "master",
-        "description": "OpenAQ",
-        "folder": "xfr_openaq",
-        "name": "Domoticz-OpenAQ-Plugin",
-        "repository": "https://github.com/Xorfor/Domoticz-OpenAQ-Plugin"
-    },
-    "xfr_pihole": {
-        "author": "Xorfor",
-        "branch": "master",
-        "description": "Pi-hole summary",
-        "folder": "xfr_pihole",
-        "name": "Domoticz-Pi-hole-Plugin",
-        "repository": "https://github.com/Xorfor/Domoticz-Pi-hole-Plugin"
-    },
-    "xfr_speedtest": {
-        "author": "Xorfor",
-        "branch": "master",
-        "description": "Speedtest",
-        "folder": "xfr_speedtest",
-        "name": "Domoticz-Speedtest-Plugin",
-        "repository": "https://github.com/Xorfor/Domoticz-Speedtest-Plugin"
     },
     "WLANThermo": {
         "author": "galadril",
