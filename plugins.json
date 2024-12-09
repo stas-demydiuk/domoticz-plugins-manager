@@ -7,6 +7,14 @@
         "name": "DomoticzCrowAlarm",
         "repository": "https://github.com/febalci/DomoticzCrowAlarm"
     },
+    "AWTRIX3": {
+        "author": "galadril",
+        "branch": "master",
+        "description": "AWTRIX3 Smart Clock",
+        "folder": "Domoticz-AWTRIX3-Plugin",
+        "name": "AWTRIX3",
+        "repository": "https://github.com/galadril/Domoticz-AWTRIX3-Plugin"
+    },
     "BatteryLevel": {
         "author": "999LV",
         "branch": "master",
