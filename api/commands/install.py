@@ -1,5 +1,6 @@
 from api.api_command import APICommand
 from plugins import plugins
+import Domoticz
 
 
 class Install(APICommand):
@@ -11,7 +12,10 @@ class Install(APICommand):
             plugin_key = params
             branch = None
 
+        Domoticz.Log(f'Executing install command with plugin_key: {plugin_key}, branch: {branch}')
+
         if plugin_key not in plugins:
+            Domoticz.Error(f'Plugin {plugin_key} not found')
             self.send_error('Plugin not found')
             return None
 
