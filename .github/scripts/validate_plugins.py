@@ -68,32 +68,32 @@ def validate_plugins(file_path):
             broken_urls.append((key, url))
             continue
 
-        # First check if repo URL is reachable (without /tree/branch)
+        # Extract owner, repo, and possible branch from URL
         owner, repo, branch_from_url = extract_owner_repo_branch(url)
         if owner is None or repo is None:
             print(f"Invalid GitHub URL format for plugin '{key}': {url}")
             broken_urls.append((key, url))
             continue
         
-        # Compose repo base URL without branch path for validation
         repo_url = f"https://github.com/{owner}/{repo}"
         if not check_url_exists(repo_url):
             print(f"Broken repository URL: {repo_url}")
             broken_urls.append((key, repo_url))
             continue
         
-        # Determine which branch to check
-        branch_to_check = branch_field if branch_field else branch_from_url
+        # Determine branch to check
+        branch_to_check = branch_field if branch_field is not None else branch_from_url
         if branch_to_check is None:
-            # No branch info, fallback to 'master'
             branch_to_check = 'master'
 
-        # Branch should be a string and not a list/array
+        # Handle branch as array or string
         if isinstance(branch_to_check, list):
-            # Invalid branch format
-            print(f"❌ Invalid branch list for plugin '{key}': {branch_to_check}")
-            invalid_branch_format.append((key, branch_to_check))
-            continue
+            if len(branch_to_check) == 1 and isinstance(branch_to_check[0], str):
+                branch_to_check = branch_to_check[0]
+            else:
+                print(f"❌ Invalid branch list for plugin '{key}': {branch_to_check}")
+                invalid_branch_format.append((key, branch_to_check))
+                continue
         if not isinstance(branch_to_check, str):
             print(f"❌ Invalid branch value for plugin '{key}': {branch_to_check}")
             invalid_branch_format.append((key, branch_to_check))
