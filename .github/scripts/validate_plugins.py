@@ -54,21 +54,20 @@ def validate_plugins(file_path):
         print(f"Error reading {file_path}: {e}")
         sys.exit(1)
 
-    valid_urls = []
+    valid_plugins = []
     broken_urls = []
     missing_branches = []
     invalid_branch_format = []
 
     for key, plugin in plugins.items():
         url = plugin.get('repository')
-        branch_field = plugin.get('branch')  # Optional branch override
+        branch_field = plugin.get('branch')
 
         if not url or not url.startswith(("http://", "https://")):
             print(f"Invalid or missing URL for plugin '{key}': {url}")
             broken_urls.append((key, url))
             continue
 
-        # Extract owner, repo, and possible branch from URL
         owner, repo, branch_from_url = extract_owner_repo_branch(url)
         if owner is None or repo is None:
             print(f"Invalid GitHub URL format for plugin '{key}': {url}")
@@ -80,37 +79,44 @@ def validate_plugins(file_path):
             print(f"Broken repository URL: {repo_url}")
             broken_urls.append((key, repo_url))
             continue
-        
-        # Determine branch to check
-        branch_to_check = branch_field if branch_field is not None else branch_from_url
-        if branch_to_check is None:
-            branch_to_check = 'master'
 
-        # Handle branch as array or string
-        if isinstance(branch_to_check, list):
-            if len(branch_to_check) == 1 and isinstance(branch_to_check[0], str):
-                branch_to_check = branch_to_check[0]
+        # Determine branches to check
+        if branch_field is None:
+            branch_to_check = branch_from_url if branch_from_url else 'master'
+            branches_to_check = [branch_to_check]
+        else:
+            if isinstance(branch_field, str):
+                branches_to_check = [branch_field]
+            elif isinstance(branch_field, list):
+                if all(isinstance(b, str) for b in branch_field):
+                    branches_to_check = branch_field
+                else:
+                    print(f"❌ Invalid branch list for plugin '{key}': {branch_field}")
+                    invalid_branch_format.append((key, branch_field))
+                    continue
             else:
-                print(f"❌ Invalid branch list for plugin '{key}': {branch_to_check}")
-                invalid_branch_format.append((key, branch_to_check))
+                print(f"❌ Invalid branch value for plugin '{key}': {branch_field}")
+                invalid_branch_format.append((key, branch_field))
                 continue
-        if not isinstance(branch_to_check, str):
-            print(f"❌ Invalid branch value for plugin '{key}': {branch_to_check}")
-            invalid_branch_format.append((key, branch_to_check))
+
+        # Check branches existence
+        missing = []
+        for branch in branches_to_check:
+            if not check_branch_exists(owner, repo, branch):
+                branch_url = f"https://github.com/{owner}/{repo}/tree/{branch}"
+                print(f"❌ Branch '{branch}' does NOT exist for plugin '{key}' at URL: {branch_url}")
+                missing.append(branch_url)
+
+        if missing:
+            missing_branches.append((key, missing))
             continue
 
-        # Check if branch exists on GitHub
-        if not check_branch_exists(owner, repo, branch_to_check):
-            print(f"❌ Branch '{branch_to_check}' does NOT exist for plugin '{key}'")
-            missing_branches.append((key, branch_to_check))
-            continue
-        
-        print(f"✔️ Plugin '{key}' repository and branch '{branch_to_check}' validated successfully.")
-        valid_urls.append(repo_url)
+        print(f"✔️ Plugin '{key}' repository and branch(es) {branches_to_check} validated successfully.")
+        valid_plugins.append(repo_url)
 
-    # Output summary
+    # Summary
     print("\n🔍 Validation Summary:")
-    print(f"✔️  Valid plugins: {len(valid_urls)}")
+    print(f"✔️  Valid plugins: {len(valid_plugins)}")
     print(f"❌ Plugins with broken URLs: {len(broken_urls)}")
     print(f"❌ Plugins with missing branches: {len(missing_branches)}")
     print(f"❌ Plugins with invalid branch format: {len(invalid_branch_format)}")
@@ -119,8 +125,9 @@ def validate_plugins(file_path):
         print("❗ Issues found:")
         for key, url in broken_urls:
             print(f"  - Broken URL for plugin '{key}': {url}")
-        for key, branch in missing_branches:
-            print(f"  - Missing branch '{branch}' for plugin '{key}'")
+        for key, branch_urls in missing_branches:
+            for branch_url in branch_urls:
+                print(f"  - Missing branch URL for plugin '{key}': {branch_url}")
         for key, branch in invalid_branch_format:
             print(f"  - Invalid branch format for plugin '{key}': {branch}")
         sys.exit(1)
