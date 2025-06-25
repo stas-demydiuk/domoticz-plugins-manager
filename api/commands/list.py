@@ -12,7 +12,8 @@ class List(APICommand):
                 'author': plugin.author,
                 'description': plugin.description,
                 'name': plugin.name,
-                'source': plugin.repository + '/tree/' + plugin.branch,
+                'source': plugin.repository + '/tree/' + plugin.branch[0],
+                'branches': plugin.branch,
                 'is_installed': plugin.is_installed(),
                 'is_update_available': plugin.is_update_available(),
             }

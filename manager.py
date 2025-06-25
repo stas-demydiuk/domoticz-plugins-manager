@@ -71,7 +71,7 @@ class Plugin():
 
         return None
 
-    def install(self):
+    def install(self, branch=None):
         Domoticz.Log("Installing Plugin:" + self.description)
 
         if (self.is_installed()):
@@ -79,7 +79,8 @@ class Plugin():
         
         plugins_folder = os.path.dirname(str(os.getcwd()) + "/plugins/")
         repository = self.repository + ".git"
-        clone_cmd="LANG=en_US /usr/bin/git clone -b " + self.branch + " " + repository + " " + self.folder_name
+        branch = branch or self.branch[0]
+        clone_cmd="LANG=en_US /usr/bin/git clone -b " + branch + " " + repository + " " + self.folder_name
         Domoticz.Debug("Calling: " + clone_cmd)
 
         try:

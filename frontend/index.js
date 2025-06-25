@@ -159,6 +159,12 @@ define(['app'], function(app) {
                     { title: 'Description', data: 'description' },
                     { title: 'Author', data: 'author' },
                     {
+                        title: 'Branch',
+                        data: 'branches',
+                        orderable: false,
+                        render: branchesRenderer
+                    },
+                    {
                         title: '',
                         className: 'actions-column',
                         width: '80px',
@@ -171,10 +177,11 @@ define(['app'], function(app) {
 
             table.on('click', '.js-install', function() {
                 var plugin = table.api().row($(this).closest('tr')).data();
+                var selectedBranch = $(this).closest('tr').find('.branch-select').val();
 
                 bootbox.confirm('Are you sure you want to install "' + plugin.name + '" plugin?')
                     .then(function() {
-                        return ppManager.sendRequest('install', plugin.key);
+                        return ppManager.sendRequest('install', { key: plugin.key, branch: selectedBranch });
                     })
                     .then(bootbox.alert, bootbox.alert)
                     .then($ctrl.onUpdate);
@@ -232,6 +239,14 @@ define(['app'], function(app) {
             return isInstalled
                 ? '<img src="../../images/ok.png" title="Installed" width="16" height="16" />'
                 : '<img src="../../images/empty16.png" width="16" height="16" />'
+        }
+
+        function branchesRenderer(branches) {
+            var options = branches.map(function(branch) {
+                return '<option value="' + branch + '">' + branch + '</option>';
+            }).join('');
+
+            return '<select class="branch-select">' + options + '</select>';
         }
 
         function actionsRenderer(data, type, plugin) {
