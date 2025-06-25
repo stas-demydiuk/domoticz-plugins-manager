@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - main
+      - master
   pull_request:
     branches:
       - main
-  workflow_dispatch: # Allows manual trigger
+      - master
+  workflow_dispatch:  # Allows for manual triggering of the workflow
 
 jobs:
   validate-plugins:
