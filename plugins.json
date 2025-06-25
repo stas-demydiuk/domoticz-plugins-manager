@@ -1,7 +1,7 @@
 {
     "AAPIPModule": {
         "author": "febalci",
-        "branch": [["master"]],
+        "branch": ["master"],
         "description": "Crow Runner Alarm",
         "folder": "AAPIPModule",
         "name": "DomoticzCrowAlarm",
@@ -9,7 +9,7 @@
     },
     "AWTRIX3": {
         "author": "galadril",
-        "branch": [["master"]],
+        "branch": ["master"],
         "description": "AWTRIX3 Smart Clock",
         "folder": "Domoticz-AWTRIX3-Plugin",
         "name": "AWTRIX3",
