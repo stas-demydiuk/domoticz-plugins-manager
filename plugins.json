@@ -369,7 +369,7 @@
     },
     "Zigate": {
         "author": "zaraki673 & pipiche38",
-        "branch": ["stable6", "beta6", "development"],
+        "branch": ["stable7", "stable6"],
         "description": "Allow Domoticz to access to the Zigbee worlds of devices",
         "folder": "Zigate",
         "name": "Zigbee for domoticz plugin",
