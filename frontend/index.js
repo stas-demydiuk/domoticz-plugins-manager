@@ -243,6 +243,10 @@ define(['app'], function(app) {
         }
 
         function branchesRenderer(branches) {
+            if (!Array.isArray(branches)) {
+                // fallback: treat as single branch string or empty
+                branches = branches ? [branches] : [];
+            }
             var options = branches.map(function(branch) {
                 return '<option value="' + branch + '">' + branch + '</option>';
             }).join('');
