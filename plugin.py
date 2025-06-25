@@ -26,6 +26,7 @@ import os
 from shutil import copy2
 from plugins import load
 from api import APIManager
+import json
 
 
 class BasePlugin:
@@ -47,11 +48,23 @@ class BasePlugin:
         self.install_ui()
         self.api_manager = APIManager(Devices)
 
+        # Send initial plugin list payload to the device on startup
+        try:
+            from api.commands.list import List
+            list_command = List(None, self.api_manager._send_response, self.api_manager._send_update)
+            list_command.send_response = lambda payload: self.api_manager._update_api_device(json.dumps(payload))
+            list_command.execute(None)
+            Domoticz.Log('Initial plugin list sent to device.')
+        except Exception as e:
+            Domoticz.Error(f'Failed to send initial plugin list: {e}')
+
     def onStop(self):
         self.uninstall_ui()
 
     def onDeviceModified(self, unit):
+        Domoticz.Log(f"onDeviceModified called for unit: {unit}")
         if (unit == self.api_manager.unit):
+            Domoticz.Log(f"Handling API request for unit: {unit}, sValue: {Devices[unit].sValue}")
             self.api_manager.handle_request(Devices[unit].sValue)
             return
 

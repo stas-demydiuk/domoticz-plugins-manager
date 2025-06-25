@@ -32,10 +32,11 @@ define(['app'], function(app) {
 
         function init() {
             return domoticzApi.sendRequest({
-                type: 'devices',
-                displayhidden: 1,
+                type: 'command',
+                param: 'getdevices',
                 filter: 'all',
-                used: 'all'
+                used: 'all',
+                displayhidden: 1
             })
                 .then(domoticzApi.errorHandler)
                 .then(function(response) {
@@ -242,6 +243,11 @@ define(['app'], function(app) {
         }
 
         function branchesRenderer(branches) {
+            if (!Array.isArray(branches)) {
+                // fallback: treat as single branch string or empty
+                branches = branches ? [branches] : [];
+            }
+          
             var options = branches.map(function(branch) {
                 return '<option value="' + branch + '">' + branch + '</option>';
             }).join('');
