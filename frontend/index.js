@@ -32,10 +32,11 @@ define(['app'], function(app) {
 
         function init() {
             return domoticzApi.sendRequest({
-                type: 'devices',
-                displayhidden: 1,
+                type: 'command',
+                param: 'getdevices',
                 filter: 'all',
-                used: 'all'
+                used: 'all',
+                displayhidden: 1
             })
                 .then(domoticzApi.errorHandler)
                 .then(function(response) {
