@@ -1,7 +1,7 @@
 {
     "AAPIPModule": {
         "author": "febalci",
-        "branch": "master",
+        "branch": [["master"]],
         "description": "Crow Runner Alarm",
         "folder": "AAPIPModule",
         "name": "DomoticzCrowAlarm",
@@ -9,7 +9,7 @@
     },
     "AWTRIX3": {
         "author": "galadril",
-        "branch": "master",
+        "branch": [["master"]],
         "description": "AWTRIX3 Smart Clock",
         "folder": "Domoticz-AWTRIX3-Plugin",
         "name": "AWTRIX3",
@@ -17,7 +17,7 @@
     },
     "BatteryLevel": {
         "author": "999LV",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Battery monitoring for Z-Wave nodes",
         "folder": "BatteryLevel",
         "name": "BatteryLevel",
@@ -25,7 +25,7 @@
     },
     "Buienradar": {
         "author": "ffes",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Buienradar.nl (Weather lookup)",
         "folder": "Buienradar",
         "name": "domoticz-buienradar",
@@ -33,7 +33,7 @@
     },
     "ChromecastPlugin": {
         "author": "Tsjippy",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Chromecast plugin for Domoticz",
         "folder": "ChromecastPlugin",
         "name": "ChromecastPlugin",
@@ -41,7 +41,7 @@
 	},
     "CreasolDombusPlugin": {
         "author": "CreasolTech",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Creasol DomBus RS485 modules (I/Os and sensors)",
         "folder": "CreasolDomBus",
         "name": "CreasolDomBusPlugin",
@@ -49,7 +49,7 @@
     },
     "DDS238": {
         "author": "CreasolTech",
-        "branch": "master",
+        "branch": ["master"],
         "description": "DDS238 ZN/S energy meter, single phase, Modbus RTU",
         "folder": "domoticz-dds238",
         "name": "domoticz-dds238",
@@ -57,7 +57,7 @@
     },
     "DTS238": {
         "author": "CreasolTech",
-        "branch": "master",
+        "branch": ["master"],
         "description": "DTS238 ZN/S energy meter, three phase, Modbus RTU",
         "folder": "domoticz-dts238",
         "name": "domoticz-dts238",
@@ -65,7 +65,7 @@
     },
     "Denon4306": {
         "author": "dnpwwo",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Denon/Marantz Amplifier",
         "folder": "Denon4306",
         "name": "Domoticz-Denon-Plugin",
@@ -73,7 +73,7 @@
     },
     "DysonPureLink": {
         "author": "JanJaapKo",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Domoticz plugin to integrate the Dyson PureLink devices",
         "folder": "DysonPureLink",
         "name": "Dyson Pure Link",
@@ -81,7 +81,7 @@
     },
     "E-Flux": {
         "author": "galadril",
-        "branch": "master",
+        "branch": ["master"],
         "description": "'E-Flux by Road' back office of your EV Charger",
         "folder": "Domoticz-E-Flux-Plugin",
         "name": "E-Flux",
@@ -89,7 +89,7 @@
     },
     "EmmetiEQ2021": {
         "author": "CreasolTech",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Emmeti EQ 2021 and EQ 3021 ES hot water heat pumps",
         "folder": "domoticz-emmeti-eq2021",
         "name": "Emmeti hot water heat pump",
@@ -97,7 +97,7 @@
     },
     "EmmetiMirai": {
         "author": "CreasolTech",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Emmeti Mirai heat pumps management",
         "folder": "domoticz-emmeti-mirai",
         "name": "Emmeti Mirai heat pump",
@@ -105,7 +105,7 @@
     },
     "GC-100": {
         "author": "dnpwwo",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Global Cache 100",
         "folder": "GC-100",
         "name": "Domoticz-GlobalCache-Plugin",
@@ -113,7 +113,7 @@
     },
     "GoodWeAPI": {
         "author": "JanJaapKo",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Provides information about your GoodWe solar inverter too Domoticz",
         "folder": "domoticz-GoodWeSEMS",
         "name": "GoodWE Solar inverter via SEMS API",
@@ -121,7 +121,7 @@
     },
     "GoveeDiscovery": {
         "author": "galadril",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Plugin to discover Govee devices on the local network and create/update devices in Domoticz",
         "folder": "Domoticz-Govee-Plugin",
         "name": "Govee Local Api Control",
@@ -129,7 +129,7 @@
     },
     "Hisense-AEH-W4A1": {
         "author": "x-th-unicorn",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Domoticz Python plugin for Hisense AC (AEH-W4A1)",
         "folder": "domoticz-aeh-w4a1",
         "name": "domoticz-aeh-w4a1",
@@ -137,7 +137,7 @@
     },
     "HivePlug": {
         "author": "imcfarla2003",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Hive Plugin",
         "folder": "HivePlug",
         "name": "domoticz-hive",
@@ -145,7 +145,7 @@
     },
     "Homewizard": {
         "author": "rvdvoorde",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Homewizard",
         "folder": "Homewizard",
         "name": "domoticz-homewizard",
@@ -153,7 +153,7 @@
     },
     "HyundaiKia": {
         "author": "CreasolTech",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Hyundai and Kia connect cars",
         "folder": "domoticz-hyundai-kia",
         "name": "Hyundai and kia connect cars",
@@ -161,7 +161,7 @@
     },
     "IKEA-Tradfri": {
         "author": "moroen",
-        "branch": "master",
+        "branch": ["master"],
         "description": "IKEA Tradfri",
         "folder": "IKEA-Tradfri",
         "name": "IKEA-Tradfri-plugin",
@@ -169,7 +169,7 @@
     },
     "IthoWifi": {
         "author": "galadril",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Itho Wifi module",
         "folder": "Domoticz-Itho-Wifi-Plugin",
         "name": "Domoticz-Itho-Wifi-Plugin",
@@ -177,7 +177,7 @@
     },
      "Kodi": {
         "author": "dnpwwo",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Kodi Media Player Plugin",
         "folder": "Domoticz-Kodi-Plugin",
         "name": "Kodi Players",
@@ -185,7 +185,7 @@
     },
     "Linky": {
         "author": "guillaumezin",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Linky",
         "folder": "Linky",
         "name": "DomoticzLinky",
@@ -201,7 +201,7 @@
     },
     "MeteoAlarmEU": {
         "author": "ycahome",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Meteo Alarm EU RSS Reader",
         "folder": "MeteoAlarmEU",
         "name": "MeteoAlarmEU",
@@ -209,7 +209,7 @@
     },
     "Mi_Flower_mate": {
         "author": "flatsiedatsie",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Xiaomi Mi Flower Mate",
         "folder": "Mi_Flower_mate_plugin",
         "name": "Xiaomi Mi Flower Mate",
@@ -217,7 +217,7 @@
     },
     "MilightESP8266": {
         "author": "mrin",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Support for ESP8266 Milight hub",
         "folder": "espmilighthub-domoticz",
         "name": "ESP8266 Milight Hub",
@@ -225,7 +225,7 @@
     },
     "MoonPhases": {
         "author": "ycahome",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Moon Phases",
         "folder": "MoonPhases",
         "name": "MoonPhases",
@@ -233,7 +233,7 @@
     },
     "NUT_UPS": {
         "author": "999LV",
-        "branch": "master",
+        "branch": ["master"],
         "description": "UPS Monitor python plugin for Domoticz",
         "folder": "NUT_UPS",
         "name": "UPS Monitor",
@@ -241,7 +241,7 @@
     },
     "Onkyo": {
         "author": "jorgh6",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Onkyo AV Receiver",
         "folder": "Onkyo",
         "name": "domoticz-onkyo-plugin",
@@ -249,7 +249,7 @@
     },
     "PZEM-016": {
         "author": "CreasolTech",
-        "branch": "master",
+        "branch": ["master"],
         "description": "PZEM-016 PZEM-014 and PZEM-004T energy meters (supports up to 51 meters on the same bus)",
         "folder": "domoticz-pzem-016",
         "name": "PZEM-016 PZEM-014 PZEM-004T energy meters",
@@ -257,7 +257,7 @@
     },
     "Quatt": {
         "author": "galadril",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Quatt",
         "folder": "Domoticz-Quatt-Plugin",
         "name": "Domoticz-Quatt-Plugin",
@@ -265,7 +265,7 @@
     },
     "RAVEn": {
         "author": "dnpwwo",
-        "branch": "master",
+        "branch": ["master"],
         "description": "RAVEn Zigbee energy monitor",
         "folder": "RAVEn",
         "name": "Domoticz-RAVEn-Plugin",
@@ -273,7 +273,7 @@
     },
     "SNMPreader": {
         "author": "ycahome",
-        "branch": "master",
+        "branch": ["master"],
         "description": "SNMP Reader",
         "folder": "SNMPreader",
         "name": "SNMPreader",
@@ -281,7 +281,7 @@
     },
     "SYSFS-Switches": {
         "author": "flatsiedatsie",
-        "branch": "master",
+        "branch": ["master"],
         "description": "SYSFS-Switches",
         "folder": "SYSFS-Switches",
         "name": "GPIO-SYSFS-Switches",
@@ -289,7 +289,7 @@
     },
     "Shelly_MQTT": {
         "author": "enesbcs",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Shelly MQTT translator",
         "folder": "Shelly_MQTT",
         "name": "Shelly MQTT",
@@ -297,7 +297,7 @@
     },
     "SmogTok": {
         "author": "smogtok",
-        "branch": "master",
+        "branch": ["master"],
         "description": "SmogTok Air Quality monitor",
         "folder": "SmogTok",
         "name": "smogtokdomoticzplug",
@@ -305,7 +305,7 @@
     },
     "solaredge modbus_tcp": {
         "author": "addiejansen",
-        "branch": "master",
+        "branch": ["master"],
         "description": "collect data from SolarEdge power inverters over ModbusTCP.",
         "folder": "domoticz-solaredge-modbustcp-plugin",
         "name": "solaredge modbus-tcp",
@@ -313,7 +313,7 @@
     },
     "Sonos": {
         "author": "gerard33",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Sonos Players",
         "folder": "Sonos",
         "name": "sonos",
@@ -321,7 +321,7 @@
     },
     "Synology SurveillanceStation": {
         "author": "lolautruche",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Synology SurveillanceStation",
         "folder": "Synology SurveillanceStation",
         "name": "SurveillanceStationDomoticz",
@@ -329,7 +329,7 @@
     },
     "TasmotaH801": {
         "author": "stas-demydiuk",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Control H801 LED WiFi Controller with Tasmota firmware via MQTT",
         "folder": "h801-tasmota-plugin",
         "name": "H801 LED WiFi Controller with Tasmota firmware",
@@ -337,7 +337,7 @@
     },
     "Thermostat Weekly Scheduler": {
         "author": "ArtBern",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Manipulate schedule for virtual thermostat on weekly basis. Easy switch for timer plans.",
         "folder": "thermostat-weekly-scheduler",
         "name": "Thermostat Weekly Scheduler",
@@ -345,7 +345,7 @@
     },
     "domoticz-theme-manager": {
         "author": "galadril",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Install and update themes via this theme manager",
         "folder": "domoticz-theme-manager",
         "name": "Domoticz Theme Manager ",
@@ -353,7 +353,7 @@
     },
     "WAN-IP-CHECKER": {
         "author": "ycahome",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Wan IP Checker",
         "folder": "WAN-IP-CHECKER",
         "name": "WAN-IP-CHECKER",
@@ -361,7 +361,7 @@
     },
     "YamahaPlug": {
         "author": "thomas-villagers",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Yamaha AV Receiver with Kodi Remote",
         "folder": "yamaha-av-receiver",
         "name": "Yamaha AV Receiver",
@@ -369,7 +369,7 @@
     },
     "Zigate": {
         "author": "zaraki673 & pipiche38",
-        "branch": "stable6",
+        "branch": ["stable6", "beta6", "development"],
         "description": "Allow Domoticz to access to the Zigbee worlds of devices",
         "folder": "Zigate",
         "name": "Zigbee for domoticz plugin",
@@ -377,7 +377,7 @@
     },
     "Zigbee2MQTT": {
         "author": "stas-demydiuk",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Domoticz integration with zigbee2mqtt project",
         "folder": "zigbee2mqtt",
         "name": "Zigbee2MQTT",
@@ -385,7 +385,7 @@
     },
     "deCONZ": {
         "author": "Smanar",
-        "branch": "master",
+        "branch": ["master"],
         "description": "deCONZ bridge (For Conbee,Raspbee)",
         "folder": "deCONZ",
         "name": "Domoticz-deCONZ",
@@ -393,7 +393,7 @@
     },
     "ebusd": {
         "author": "guillaumezin",
-        "branch": "master",
+        "branch": ["master"],
         "description": "ebusd bridge",
         "folder": "ebusd",
         "name": "DomoticzEbusd",
@@ -401,7 +401,7 @@
     },
     "ems-gateway": {
         "author": "bbqkees",
-        "branch": "master",
+        "branch": ["master"],
         "description": "EMS bus Wi-Fi Gateway",
         "folder": "ems-gateway",
         "name": "ems-esp-domoticz-plugin",
@@ -409,7 +409,7 @@
     },
     "eq3max": {
         "author": "mvzut",
-        "branch": "master",
+        "branch": ["master"],
         "description": "eQ-3 MAX! Cube",
         "folder": "eq3max",
         "name": "maxcube-Domoticz-plugin",
@@ -417,7 +417,7 @@
     },
     "ewpe-smart-mqtt": {
         "author": "stas-demydiuk",
-        "branch": "master",
+        "branch": ["master"],
         "description": "EwpeSmart (Gree, Cooper&Hunter, etc.) Air Conditioners control via MQTT",
         "folder": "ewpe-smart-mqtt",
         "name": "EwpeSmart Air Conditioners via MQTT",
@@ -425,7 +425,7 @@
     },
     "freeboxv6": {
         "author": "supermat",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Freebox V6 (Revolution)",
         "folder": "freeboxv6",
         "name": "PluginDomoticzFreebox",
@@ -433,7 +433,7 @@
     },
     "iDetect": {
         "author": "d-EScape",
-        "branch": "master",
+        "branch": ["master"],
         "description": "iDetect Presence Detection",
         "folder": "iDetect",
         "name": "Domoticz_iDetect",
@@ -441,7 +441,7 @@
     },
     "mikrotik-routeros": {
         "author": "mrin",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Mikrotik RouterOS",
         "folder": "mikrotik-routeros",
         "name": "domoticz-routeros-plugin",
@@ -449,7 +449,7 @@
     },
     "owrtwifi2domo": {
         "author": "enesbcs",
-        "branch": "master",
+        "branch": ["master"],
         "description": "OpenWRT Wifi Presence Detector to MQTT translator",
         "folder": "owrtwifi2domo",
         "name": "OpenWRT Wifi Presence MQTT",
@@ -457,7 +457,7 @@
     },
     "plugins-manager": {
         "author": "stas-demydiuk",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Allows to manage python plugins through custom UI page",
         "folder": "plugins-manager",
         "name": "Python Plugins Manager",
@@ -465,7 +465,7 @@
     },
     "pyrtl433": {
         "author": "enesbcs",
-        "branch": "master",
+        "branch": ["master"],
         "description": "RTL_433 MQTT receiver",
         "folder": "pyrtl433",
         "name": "RTL433 MQTT",
@@ -473,7 +473,7 @@
     },
     "sony": {
         "author": "gerard33",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Sony Bravia TV (with Kodi remote)",
         "folder": "sony",
         "name": "sony-bravia",
@@ -481,7 +481,7 @@
     },
     "WLANThermo": {
         "author": "galadril",
-        "branch": "master",
+        "branch": ["master"],
         "description": "WLANThermo",
         "folder": "Domoticz-WLANThermo-Plugin",
         "name": "WLANThermo",
@@ -489,7 +489,7 @@
     },
     "WLED": {
         "author": "frustreermeneer",
-        "branch": "master",
+        "branch": ["master"],
         "description": "WLED",
         "folder": "wled",
         "name": "WLED Plugin",
@@ -497,7 +497,7 @@
     },
     "xiaomi-mi-robot-vacuum": {
         "author": "mrin",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Xiaomi Mi Robot Vacuum",
         "folder": "xiaomi-mirobot",
         "name": "Xiaomi Mi Robot Vacuum",
@@ -505,7 +505,7 @@
     },
     "yi-hack": {
         "author": "galadril",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Yi Hack Plugin",
         "folder": "yi-hack",
         "name": "Yi Hack Plugin",
@@ -513,7 +513,7 @@
     },
     "Update_timer_Plugin": {
         "author": "skarab22",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Synchronize your devices on the corresponding active timer",
         "folder": "Update_timer",
         "name": "Update_timer Plugin",
@@ -521,7 +521,7 @@
     },
     "Tasmoticz": {
         "author": "joba-1",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Python plugin for autodetecting ESP8266 devices with Tasmota firmware in Domoticz Homeautomation.",
         "folder": "Tasmoticz",
         "name": "Tasmoticz",
@@ -529,7 +529,7 @@
     },
     "Tuya": {
         "author": "guino",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Controls TUYA devices your network (mainly on/off switches and Lights).",
         "folder": "tuyaha",
         "name": "Tuya",
@@ -537,7 +537,7 @@
     },
     "WuDirect": {
         "author": "vaneeten",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Direct reception and parsing of Wunderground-formatted Weatherstation data.",
         "folder": "domoticz-wudirect",
         "name": "WuDirect",
@@ -545,7 +545,7 @@
     },
     "Panasonic Cloud Comfort": {
         "author": "sdamasoc",
-        "branch": "master",
+        "branch": ["master"],
         "description": "Panasonic Cloud Comfort plugin (originally CZ-TACG1 but works for all)",
         "folder": "domoticz_panasonic_CZ-TACG1",
         "name": "Panasonic Cloud Comfort",
