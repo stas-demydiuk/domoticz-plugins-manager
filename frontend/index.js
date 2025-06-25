@@ -247,6 +247,7 @@ define(['app'], function(app) {
                 // fallback: treat as single branch string or empty
                 branches = branches ? [branches] : [];
             }
+          
             var options = branches.map(function(branch) {
                 return '<option value="' + branch + '">' + branch + '</option>';
             }).join('');
